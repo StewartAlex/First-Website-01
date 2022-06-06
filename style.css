@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 80vw;
+}
+.navbar{
+    display: flex;
+    height: 65px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+.top-left{
+    width: 50vw;
+    /* padding: 12px 0; */
+    /* width: 50%; */
+    /* height: 50vh; */
+}
+.top-right{
+    width: 50vw;
+    /* width: 50%; */
+    /* height: 50vh; */
+    /* /* padding-right: 30%; */
+    
+
+}
+.section-1{
+    /* height: 50vh; */
+    max-height: 100vh;
+    /* display: flex;
+    justify-content: space-around; */
+}
+.section-1 h1{
+    font-size: 2rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.logo{
+    font-size: 2.5rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+.dumbelimg{
+    width: 200px;
+}
+.top-right .gymimg{
+    width: 400px;
+}
+.section-2{
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.section-2 h1{
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+.section-2 p{
+    padding: 0 5vw;
+    text-align: center;
+}
+.box{
+    padding: 20px 0;
+    margin: 12px 20px;
+    min-width: 22vw;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.box h2{
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 15px 0;
+}
+.box ul{
+    list-style: none;
+}
+.box ul li{
+    margin: 20px 2px;
+}
+.highlight{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-3{
+    /* padding-left: 45px;
+    padding-right: 45px; */
+}
+.section-3 h1{
+    font-size: 3.5rem;
+    font-weight: 200;
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+}
+.section-3 p{
+    max-width: 45vw;
+    /* margin-top: 50px; */
+    /* text-align: center; */
+}
+.body-bene{
+    /* display: flex; */
+    width: 450px;
+    /* padding: 35px 0; */
+}
